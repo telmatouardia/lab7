@@ -1,0 +1,34 @@
+1)
+ ecrire les code max.c, testmax.c, et max.h
+2) la compilation du code: gcc -c testmax.c 
+
+3) les fichiers intermidiare 
+
+
+gcc -S testmax.c  (assembleur) 
+gcc -E testmin.c
+
+objdump -t testmax.o(  
+objdump -t testmin.o
+
+4) ls
+ max.h   testmax.c  testmax.s 
+max.c  max.o   testmax.o  
+
+ 
+5)
+
+ la commande :  objdump -t testmin.o nous montre que la fonction appelé dans testmin est indefini comme on le voit ci-dessous
+        ( *UND*	0000000000000000 min)
+     
+
+gcc testmin.c min.c  ( pour générer le binaire final en sortie 'a.out') 
+objdump -t a.out ( on voit que le binaire de la fonctin min et remplacer )
+
+
+6) LA fonction min 
+
+7) Code de la variance 
+
+
+
