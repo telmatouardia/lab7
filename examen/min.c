@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <math.h>
 
-void max(int t[], int n, int *min){
+void min(int t[], int n, int *min){
 int i;
 
 *min= t[0];

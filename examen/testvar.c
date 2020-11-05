@@ -1,12 +1,12 @@
 #include <stdio.h>
-#include "max.h"
+#include "var.h"
 
 int main (){
      int n = 5;
-     int maxx;
+     float varian;
      int t [5] = {2, 5,7,2,9};
-     max(t, n, &maxx);
-     printf ("%d\n", maxx);
+     variance (t, n, &varian);
+     printf ("%f", varian);
      return 0;
 } 
 
