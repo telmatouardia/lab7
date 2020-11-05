@@ -30,17 +30,13 @@ objdump -t a.out ( on voit que le binaire de la fonctin min et remplacer )
 
 
 7) Code de la variance 
-Compilation : gcc var.c testvar.c -o didouche
-./didouche 
+gcc var.c testvar.c -o didouche
+./didouche
 
-
-
-8) le fichier TEST 
-pour la compilation 
-gcc max.c min.c var.c  TEST.c -o mass
+8) le fichier test 
+compilation 
+gcc max.c min.c var.c TEST.c -o mass
 ./mass
-
-
 
 
 
